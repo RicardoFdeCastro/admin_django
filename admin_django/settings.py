@@ -128,9 +128,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 JAZZMIN_SETTINGS = {
     "site_title": "Administração do Projeto",
     "site_header": "Administração",
-    "site_brand": "admin_django",
+    "site_brand": "Projeto",
     "welcome_sign": "Bem-vindo ao Admin do Projeto",
-    "copyright": "Seu Nome ou Empresa",
+    "copyright": "Ricardo Castro",
     "search_model": ["core.categoria", "core.product"],
     "show_sidebar": True,
     "navigation_expanded": True,
@@ -140,5 +140,7 @@ JAZZMIN_SETTINGS = {
     "icons": {
         "core.categoria": "fas fa-list",
         "core.product": "fas fa-box",
+        "auth.user": "fas fa-user",
+        "auth.Group": "fas fa-users",
     },
 }
